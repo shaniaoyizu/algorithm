@@ -3,8 +3,6 @@ package liner.linked;
 import org.junit.Before;
 import org.junit.Test;
 
-import java.util.ArrayList;
-
 /**
  * Created on 2020-05-13
  *
@@ -14,7 +12,7 @@ import java.util.ArrayList;
  */
 public class PalindromeTest {
 
-    ListNode head = new ListNode(1);
+    Node head = new Node(1);
 
 
     /**
@@ -22,12 +20,12 @@ public class PalindromeTest {
      */
     @Before
     public void oddPrepare(){
-        ListNode node2 = new ListNode(2);
-        ListNode node3 = new ListNode(3);
-        ListNode node4 = new ListNode(4);
-        ListNode node5 = new ListNode(3);
-        ListNode node6 = new ListNode(2);
-        ListNode node7 = new ListNode(1);
+        Node node2 = new Node(2);
+        Node node3 = new Node(3);
+        Node node4 = new Node(4);
+        Node node5 = new Node(3);
+        Node node6 = new Node(2);
+        Node node7 = new Node(1);
         head.next = node2;
         node2.next = node3;
         node3.next = node4;
@@ -41,13 +39,13 @@ public class PalindromeTest {
      */
 //    @Before
     public void evenPrepare(){
-        ListNode node2 = new ListNode(2);
-        ListNode node3 = new ListNode(3);
-        ListNode node4 = new ListNode(4);
-        ListNode node5 = new ListNode(4);
-        ListNode node6 = new ListNode(3);
-        ListNode node7 = new ListNode(2);
-        ListNode node8 = new ListNode(1);
+        Node node2 = new Node(2);
+        Node node3 = new Node(3);
+        Node node4 = new Node(4);
+        Node node5 = new Node(4);
+        Node node6 = new Node(3);
+        Node node7 = new Node(2);
+        Node node8 = new Node(1);
         head.next = node2;
         node2.next = node3;
         node3.next = node4;
@@ -59,7 +57,7 @@ public class PalindromeTest {
 
     @Test
     public void test(){
-        ListNode node = head;
+        Node node = head;
         while (node != null){
             System.out.println(node.val);
             node = node.next;

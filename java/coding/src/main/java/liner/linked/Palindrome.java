@@ -13,7 +13,7 @@ package liner.linked;
  */
 
 public class Palindrome {
-    public boolean isPalindrome(ListNode head) {
+    public boolean isPalindrome(Node head) {
         if (head == null) {
             return false;
         }
@@ -25,11 +25,11 @@ public class Palindrome {
         /**
          * 运算过程中例外需要申请的3个空间
          */
-        ListNode prev = null;
+        Node prev = null;
         // 快指针
-        ListNode fast = head;
+        Node fast = head;
         // 慢指针
-        ListNode slow = head;
+        Node slow = head;
 
         // 保证快指针走完链表
         while (fast != null && fast.next != null) {
@@ -37,7 +37,7 @@ public class Palindrome {
             fast = fast.next.next;
 
             // slow指针指向逆转
-            ListNode next = slow.next;
+            Node next = slow.next;
             slow.next = prev;
             prev = slow;
 
@@ -61,11 +61,3 @@ public class Palindrome {
     }
 }
 
-class ListNode {
-    int val;
-    ListNode next;
-
-    public ListNode(int val) {
-        this.val = val;
-    }
-}
