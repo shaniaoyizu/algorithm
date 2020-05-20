@@ -14,7 +14,7 @@ public class GenericArray<T> {
     private T[] data;
     private int size;
 
-    private static final Object[] EMPTY_ELEMENTDATA = {};
+    private static final Object[] EMPTY_ELEMENT_DATA = {};
 
     /**
      * the capacity of data array
@@ -226,7 +226,7 @@ public class GenericArray<T> {
      */
     public void trimToSize() {
         if (size < data.length) {
-            data = (size == 0) ? (T[]) EMPTY_ELEMENTDATA : Arrays.copyOf(data, size);
+            data = (size == 0) ? (T[]) EMPTY_ELEMENT_DATA : Arrays.copyOf(data, size);
         }
     }
 
