@@ -56,7 +56,7 @@ public class LinkedListUtilsTest {
         }
         list02.printAll();
 
-        Node head = LinkedListUtils.combineLinkedList(list01.head,list02.head);
+        Node head = LinkedListUtils.combineSortedLinkedList(list01.head,list02.head);
         LinkedListUtils.printAll(head);
         System.out.println("=========================================");
         System.out.println(head);

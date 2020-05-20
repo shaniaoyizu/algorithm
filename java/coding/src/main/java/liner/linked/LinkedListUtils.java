@@ -6,8 +6,8 @@ package liner.linked;
  * @author sunbc
  * @Describe 1) Inverses the singly linked list
  * 2) Checks whether the singly linked list has a circle
- * 3) Combines two sorted linked list
- * 4) Deletes the Nth last node of the linked list and returns the head node of this list
+ * 3) Combines two sorted linked list and returns the head node
+ * 4) Deletes the Nth last node of the linked list and returns the head node
  * 5) Finds the middle node of the linked list
  * @since
  */
@@ -43,10 +43,7 @@ public class LinkedListUtils {
      * @return
      */
     public static boolean checkCircle(Node head) {
-        if (head == null) {
-            return false;
-        }
-        if (head.next == null) {
+        if (head == null || head.next == null) {
             return false;
         }
 
@@ -64,46 +61,48 @@ public class LinkedListUtils {
     }
 
     /**
-     * Combines two sorted linked list
+     * Combines two sorted linked list and returns the head node
      *
      * @param head01
      * @param head02
      * @return
      */
-    public static Node combineLinkedList(Node head01, Node head02) {
-        if (head01 == null) {
-            return head02;
+    public static Node combineSortedLinkedList(Node head01, Node head02) {
+        Node list01 = head01;
+        Node list02 = head02;
+        if (list01 == null) {
+            return list02;
         }
-        if (head02 == null) {
-            return head02;
+        if (list02 == null) {
+            return list02;
         }
 
         Node soldier = new Node(0);
         Node cur = soldier;
 
-        while (head01 != null && head02 != null) {
-            if (head01.val >= head02.val) {
-                cur.next = head02;
-                head02 = head02.next;
+        while (list01 != null && list02 != null) {
+            if (list01.val >= list02.val) {
+                cur.next = list02;
+                list02 = list02.next;
             } else {
-                cur.next = head01;
-                head01 = head01.next;
+                cur.next = list01;
+                list01 = list01.next;
             }
             cur = cur.next;
         }
 
-        if (head01 == null){
-            cur.next = head02;
+        if (list01 == null){
+            cur.next = list02;
         }
-        if (head02 == null){
-            cur.next = head01;
+        if (list02 == null){
+            cur.next = list01;
         }
 
         return soldier.next;
     }
 
     /**
-     * Deletes the Nth last node of the linked list and returns the head node of this list
+     * Deletes the Nth last node of the linked list and returns the head node
      *
      * @param head
      * @return
@@ -165,9 +164,10 @@ public class LinkedListUtils {
      * @param head
      */
     public static void printAll(Node head) {
-        while (head != null) {
-            System.out.print(head.val + " ");
-            head = head.next;
+        Node cur = head;
+        while (cur != null) {
+            System.out.print(cur.val + " ");
+            cur = cur.next;
         }
         System.out.println();
     }
