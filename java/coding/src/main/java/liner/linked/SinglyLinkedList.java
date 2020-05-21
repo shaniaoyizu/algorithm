@@ -12,7 +12,7 @@ public class SinglyLinkedList {
     public Node head = null;
 
     /**
-     * Finds the element in this list with the specified value
+     * Finds the value in this list with the specified value
      *
      * @param value
      * @return
@@ -26,7 +26,7 @@ public class SinglyLinkedList {
     }
 
     /**
-     * Finds the element in this list with the specified position
+     * Finds the value in this list with the specified position
      *
      * @param index
      * @return
@@ -42,7 +42,7 @@ public class SinglyLinkedList {
     }
 
     /**
-     * Inserts the specified element into the head of this list
+     * Inserts the specified value into the head of this list
      *
      * @param newNode
      */
@@ -66,7 +66,7 @@ public class SinglyLinkedList {
     }
 
     /**
-     * Inserts the specified element into the tail of this list
+     * Inserts the specified value into the tail of this list
      *
      * @param newNode
      */
@@ -95,7 +95,7 @@ public class SinglyLinkedList {
     }
 
     /**
-     * Inserts the specified element after the specified element of this list
+     * Inserts the specified value after the specified value of this list
      *
      * @param p
      * @param newNode
@@ -109,7 +109,7 @@ public class SinglyLinkedList {
     }
 
     /**
-     * Inserts the specified value after the specified element of this list
+     * Inserts the specified value after the specified value of this list
      *
      * @param p
      * @param value
@@ -120,7 +120,7 @@ public class SinglyLinkedList {
     }
 
     /**
-     * Inserts the specified element before the specified element of this list
+     * Inserts the specified value before the specified value of this list
      *
      * @param p
      * @param newCode
@@ -143,7 +143,7 @@ public class SinglyLinkedList {
     }
 
     /**
-     * Inserts the specified value before the specified element of this list
+     * Inserts the specified value before the specified value of this list
      *
      * @param p
      * @param value
@@ -154,7 +154,7 @@ public class SinglyLinkedList {
     }
 
     /**
-     * Deletes the specified element from this list
+     * Deletes the specified value from this list
      *
      * @param p
      */
@@ -296,7 +296,7 @@ public class SinglyLinkedList {
     }
 
     /**
-     * Inverses this list until the specified element of this list
+     * Inverses this list until the specified value of this list
      *
      * @param p
      * @return
