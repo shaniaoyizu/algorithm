@@ -118,14 +118,14 @@ public class LRUBasedArray<T> {
      * Prints all the elements of cache
      */
     public void printAll() {
+        if (size == 0){
+            System.out.println("[]");
+            return;
+        }
+
         StringBuilder arrayStr = new StringBuilder("[");
         for (int i = 0; ; i++) {
-            if (value[i] != null) {
-                arrayStr.append(value[i]);
-            } else {
-                System.out.println();
-                return;
-            }
+            arrayStr.append(value[i]);
             if (i == size - 1) {
                 arrayStr.append("]");
                 System.out.println(arrayStr.toString());

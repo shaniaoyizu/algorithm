@@ -104,12 +104,10 @@ public class LRUBasedLinkedList<T> {
      */
     private void deleteCache(SNode node) {
         SNode cur = headNode;
-        if (cur.next != null) {
-            while (cur.next.next != null) {
-                cur = cur.next;
-            }
-            cur.next = null;
+        while (cur.next.next != null) {
+            cur = cur.next;
         }
+        cur.next = null;
         node.next = headNode.next;
         headNode.next = node;
     }

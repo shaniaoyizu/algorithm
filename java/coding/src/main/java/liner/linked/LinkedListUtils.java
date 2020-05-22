@@ -144,10 +144,6 @@ public class LinkedListUtils {
      * @return
      */
     public static Node findMiddleNode(Node head) {
-        if (head == null || head.next == null) {
-            return head;
-        }
-
         Node fast = head;
         Node slow = head;
         while (fast != null && fast.next != null) {
