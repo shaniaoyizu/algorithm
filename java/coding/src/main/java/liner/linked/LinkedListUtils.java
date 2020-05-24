@@ -20,10 +20,6 @@ public class LinkedListUtils {
      * @return
      */
     public static Node inverseLinkedList(Node head) {
-        if (head == null) {
-            return head;
-        }
-
         Node prev = null;
         Node next;
         Node cur = head;

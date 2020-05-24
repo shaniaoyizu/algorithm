@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c9f7ae6-05aa-4b43-81fe-9d53bd013681" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/liner/array/LRUBasedArray.java" afterPath="$PROJECT_DIR$/src/main/java/liner/array/LRUBasedArray.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/liner/linked/LRUBasedLinkedList.java" afterPath="$PROJECT_DIR$/src/main/java/liner/linked/LRUBasedLinkedList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/liner/stack/StackBasedArray.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/liner/stack/StackBasedLinkedList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/liner/stack/StackBasedArrayTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/liner/stack/StackBasedLinkedListTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/liner/linked/LinkedListUtils.class" afterPath="$PROJECT_DIR$/target/classes/liner/linked/LinkedListUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/liner/linked/LinkedListUtils.java" afterPath="$PROJECT_DIR$/src/main/java/liner/linked/LinkedListUtils.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -17,34 +21,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LRUBasedArray.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/liner/array/LRUBasedArray.java">
+      <file leaf-file-name="StackBasedLinkedList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/liner/stack/StackBasedLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="55" column="46" lean-forward="true" selection-start-line="55" selection-start-column="46" selection-end-line="55" selection-end-column="46" />
+            <state relative-caret-position="249">
+              <caret line="67" column="24" lean-forward="true" selection-start-line="67" selection-start-column="24" selection-end-line="67" selection-end-column="24" />
               <folding>
-                <element signature="method#LRUBasedArray#1;class#LRUBasedArray#0" expanded="false" />
+                <element signature="e#367#368#0" expanded="true" />
+                <element signature="e#396#397#0" expanded="true" />
+                <element signature="e#501#502#0" expanded="true" />
+                <element signature="e#528#529#0" expanded="true" />
+                <element signature="e#1975#1976#0" expanded="true" />
+                <element signature="e#2009#2010#0" expanded="true" />
+                <element signature="e#2042#2043#0" expanded="true" />
+                <element signature="e#2083#2084#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LinkedListUtilsTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/liner/linked/LinkedListUtilsTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LRUBasedLinkedListTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/liner/linked/LRUBasedLinkedListTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -52,24 +43,33 @@
       <file leaf-file-name="LinkedListUtils.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/liner/linked/LinkedListUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2064">
-              <caret line="145" column="50" lean-forward="false" selection-start-line="145" selection-start-column="50" selection-end-line="145" selection-end-column="50" />
+            <state relative-caret-position="1589">
+              <caret line="148" column="0" lean-forward="true" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StackBasedLinkedListTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/liner/stack/StackBasedLinkedListTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="77">
+              <caret line="20" column="42" lean-forward="false" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
               <folding>
-                <element signature="method#inverseLinkedList#0;class#LinkedListUtils#0" expanded="false" />
-                <element signature="method#checkCircle#0;class#LinkedListUtils#0" expanded="false" />
-                <element signature="method#deleteNthLastNode#0;class#LinkedListUtils#0" expanded="false" />
-                <element signature="method#printAll#0;class#LinkedListUtils#0" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LRUBasedArrayTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/liner/array/LRUBasedArrayTest.java">
+      <file leaf-file-name="StackBasedArrayTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/liner/stack/StackBasedArrayTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-              <folding />
+            <state relative-caret-position="216">
+              <caret line="24" column="9" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="24" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -93,6 +93,7 @@
       <find>trim</find>
       <find>contain</find>
       <find>toString</find>
+      <find>grow</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -118,12 +119,17 @@
         <option value="$PROJECT_DIR$/src/main/java/liner/linked/LinkedListOperation.java" />
         <option value="$PROJECT_DIR$/src/test/java/liner/linked/LinkedListUtilsTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/liner/array/GenericArray.java" />
-        <option value="$PROJECT_DIR$/src/main/java/liner/linked/SNode.java" />
         <option value="$PROJECT_DIR$/src/test/java/liner/array/LRUBasedArrayTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/liner/linked/LRUBasedLinkedListTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/liner/linked/LinkedListUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/liner/array/LRUBasedArray.java" />
+        <option value="$PROJECT_DIR$/src/main/java/liner/linked/LinkedListUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/liner/stack/StackBasedOnArray.java" />
+        <option value="$PROJECT_DIR$/src/test/java/liner/stack/StackBasedArrayTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/liner/linked/LRUBasedLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/liner/linked/SNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/liner/stack/StackBasedOnLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/test/java/liner/stack/StackBasedLinkedListTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/liner/stack/StackBasedLinkedList.java" />
       </list>
     </option>
   </component>
@@ -169,7 +175,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -210,7 +218,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="liner" type="462c0819:PsiDirectoryNode" />
-              <item name="array" type="462c0819:PsiDirectoryNode" />
+              <item name="linked" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="coding" type="b2602c69:ProjectViewProjectNode" />
@@ -219,7 +227,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="liner" type="462c0819:PsiDirectoryNode" />
-              <item name="linked" type="462c0819:PsiDirectoryNode" />
+              <item name="stack" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="coding" type="b2602c69:ProjectViewProjectNode" />
@@ -249,24 +257,13 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="liner" type="462c0819:PsiDirectoryNode" />
-              <item name="array" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="coding" type="b2602c69:ProjectViewProjectNode" />
-              <item name="coding" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="liner" type="462c0819:PsiDirectoryNode" />
-              <item name="linked" type="462c0819:PsiDirectoryNode" />
+              <item name="stack" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -278,7 +275,9 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="ArrayList&#9;FILE&#9;jar://D:/JavaEnvironment/jdk1.8.0_172/src.zip!/java/util/ArrayList.java&#10;Arra&#9;FILE&#9;jar://D:/JavaEnvironment/jdk1.8.0_172/src.zip!/java/util/ArrayList.java&#10;Array&#9;FILE&#9;jar://D:/JavaEnvironment/jdk1.8.0_172/src.zip!/java/util/ArrayList.java&#10;ArrayL&#9;FILE&#9;jar://D:/JavaEnvironment/jdk1.8.0_172/src.zip!/java/util/ArrayList.java&#10;A&#9;FILE&#9;jar://D:/JavaEnvironment/jdk1.8.0_172/src.zip!/java/util/ArrayList.java" />
+    <property name="SearchEverywhereHistoryKey" value="LinkedList&#9;FILE&#9;jar://D:/JavaEnvironment/jdk1.8.0_172/src.zip!/java/util/LinkedList.java&#10;ArrayList&#9;FILE&#9;jar://D:/JavaEnvironment/jdk1.8.0_172/src.zip!/java/util/ArrayList.java&#10;Arra&#9;FILE&#9;jar://D:/JavaEnvironment/jdk1.8.0_172/src.zip!/java/util/ArrayList.java&#10;Array&#9;FILE&#9;jar://D:/JavaEnvironment/jdk1.8.0_172/src.zip!/java/util/ArrayList.java&#10;ArrayL&#9;FILE&#9;jar://D:/JavaEnvironment/jdk1.8.0_172/src.zip!/java/util/ArrayList.java&#10;A&#9;FILE&#9;jar://D:/JavaEnvironment/jdk1.8.0_172/src.zip!/java/util/ArrayList.java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/liner/linked/LinkedListUtils.java" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/src/main/java/liner/linked/LinkedListUtils.java" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -297,7 +296,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LRUBasedArrayTest.test">
+  <component name="RunManager" selected="JUnit.StackBasedLinkedListTest.test">
     <configuration name="LRUBasedArrayTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -348,19 +347,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="LinkedListUtilsTest.test03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StackBasedArrayTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="liner.linked.*" />
+          <option name="PATTERN" value="liner.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="coding" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="liner.linked" />
-      <option name="MAIN_CLASS_NAME" value="liner.linked.LinkedListUtilsTest" />
-      <option name="METHOD_NAME" value="test03" />
+      <option name="PACKAGE_NAME" value="liner.stack" />
+      <option name="MAIN_CLASS_NAME" value="liner.stack.StackBasedArrayTest" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -373,19 +372,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="LinkedListUtilsTest.test04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StackBasedArrayTest.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="liner.linked.*" />
+          <option name="PATTERN" value="liner.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="coding" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="liner.linked" />
-      <option name="MAIN_CLASS_NAME" value="liner.linked.LinkedListUtilsTest" />
-      <option name="METHOD_NAME" value="test04" />
+      <option name="PACKAGE_NAME" value="liner.stack" />
+      <option name="MAIN_CLASS_NAME" value="liner.stack.StackBasedArrayTest" />
+      <option name="METHOD_NAME" value="test02" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -398,19 +397,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="LinkedListUtilsTest.test05" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StackBasedLinkedListTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="liner.linked.*" />
+          <option name="PATTERN" value="liner.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="coding" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="liner.linked" />
-      <option name="MAIN_CLASS_NAME" value="liner.linked.LinkedListUtilsTest" />
-      <option name="METHOD_NAME" value="test05" />
+      <option name="PACKAGE_NAME" value="liner.stack" />
+      <option name="MAIN_CLASS_NAME" value="liner.stack.StackBasedLinkedListTest" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -504,24 +503,27 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.LinkedListUtilsTest.test03" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.LinkedListUtilsTest.test04" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.LinkedListUtilsTest.test05" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.LRUBasedArrayTest.test" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.LRUBasedLinkedListTest.test" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.LRUBasedArrayTest.test" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.LRUBasedLinkedListTest.test" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.StackBasedArrayTest.test" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.StackBasedArrayTest.test02" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.StackBasedLinkedListTest.test" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.LRUBasedArrayTest.test" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.LRUBasedLinkedListTest.test" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.LinkedListUtilsTest.test05" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.LinkedListUtilsTest.test04" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.LinkedListUtilsTest.test03" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.StackBasedLinkedListTest.test" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.StackBasedArrayTest.test02" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.StackBasedArrayTest.test" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.LRUBasedArrayTest.test" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.LRUBasedLinkedListTest.test" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -540,44 +542,46 @@
       <workItem from="1589886264733" duration="16734000" />
       <workItem from="1589952519042" duration="15405000" />
       <workItem from="1590028264768" duration="9651000" />
-      <workItem from="1590124449955" duration="6973000" />
+      <workItem from="1590124449955" duration="8473000" />
+      <workItem from="1590210878392" duration="2439000" />
+      <workItem from="1590294844116" duration="12843000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LRUBasedArrayTest_test - 2020.05.22 at 22h 08m 36s.xml">
-      <configuration name="LRUBasedArrayTest.test" configurationId="JUnit" />
+    <history-entry file="StackBasedArrayTest_test - 2020.05.24 at 21h 55m 38s.xml">
+      <configuration name="StackBasedArrayTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LRUBasedArrayTest_test - 2020.05.22 at 22h 09m 20s.xml">
-      <configuration name="LRUBasedArrayTest.test" configurationId="JUnit" />
+    <history-entry file="StackBasedArrayTest_test02 - 2020.05.24 at 21h 57m 34s.xml">
+      <configuration name="StackBasedArrayTest.test02" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LRUBasedArrayTest_test - 2020.05.22 at 22h 10m 21s.xml">
-      <configuration name="LRUBasedArrayTest.test" configurationId="JUnit" />
+    <history-entry file="StackBasedArrayTest_test02 - 2020.05.24 at 21h 58m 21s.xml">
+      <configuration name="StackBasedArrayTest.test02" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LRUBasedArrayTest_test - 2020.05.22 at 23h 22m 32s.xml">
-      <configuration name="LRUBasedArrayTest.test" configurationId="JUnit" />
+    <history-entry file="StackBasedLinkedListTest_test - 2020.05.24 at 23h 17m 57s.xml">
+      <configuration name="StackBasedLinkedListTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LRUBasedLinkedListTest_test - 2020.05.21 at 21h 10m 26s.xml">
-      <configuration name="LRUBasedLinkedListTest.test" configurationId="JUnit" />
+    <history-entry file="StackBasedLinkedListTest_test - 2020.05.24 at 23h 19m 10s.xml">
+      <configuration name="StackBasedLinkedListTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LRUBasedLinkedListTest_test - 2020.05.21 at 21h 11m 18s.xml">
-      <configuration name="LRUBasedLinkedListTest.test" configurationId="JUnit" />
+    <history-entry file="StackBasedLinkedListTest_test - 2020.05.24 at 23h 19m 52s.xml">
+      <configuration name="StackBasedLinkedListTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LRUBasedLinkedListTest_test - 2020.05.21 at 21h 13m 11s.xml">
-      <configuration name="LRUBasedLinkedListTest.test" configurationId="JUnit" />
+    <history-entry file="StackBasedLinkedListTest_test - 2020.05.24 at 23h 21m 00s.xml">
+      <configuration name="StackBasedLinkedListTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LRUBasedLinkedListTest_test - 2020.05.21 at 21h 14m 11s.xml">
-      <configuration name="LRUBasedLinkedListTest.test" configurationId="JUnit" />
+    <history-entry file="StackBasedLinkedListTest_test - 2020.05.24 at 23h 23m 21s.xml">
+      <configuration name="StackBasedLinkedListTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LRUBasedLinkedListTest_test - 2020.05.22 at 22h 58m 50s.xml">
-      <configuration name="LRUBasedLinkedListTest.test" configurationId="JUnit" />
+    <history-entry file="StackBasedLinkedListTest_test - 2020.05.24 at 23h 25m 24s.xml">
+      <configuration name="StackBasedLinkedListTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LRUBasedLinkedListTest_test - 2020.05.22 at 23h 21m 57s.xml">
-      <configuration name="LRUBasedLinkedListTest.test" configurationId="JUnit" />
+    <history-entry file="StackBasedLinkedListTest_test - 2020.05.24 at 23h 25m 46s.xml">
+      <configuration name="StackBasedLinkedListTest.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106410000" />
+    <option name="totallyTimeSpent" value="123192000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -591,20 +595,20 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933104" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37392795" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" x="20" y="422" width="1322" height="235" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933104" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32761577" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23903178" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Run with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2700454" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48370498" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37049744" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -675,87 +679,26 @@
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/liner/linked/LRUBasedLinkedList.java</url>
-          <line>120</line>
+          <url>file://$PROJECT_DIR$/src/test/java/liner/stack/StackBasedLinkedListTest.java</url>
+          <line>17</line>
           <properties />
-          <option name="timeStamp" value="32" />
+          <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/liner/linked/LRUBasedLinkedList.java</url>
-          <line>62</line>
+          <url>file://$PROJECT_DIR$/src/main/java/liner/stack/StackBasedLinkedList.java</url>
+          <line>45</line>
           <properties />
-          <option name="timeStamp" value="33" />
+          <option name="timeStamp" value="36" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="34" />
+      <option name="time" value="37" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/liner/linked/SinglyLinkedListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1440">
-          <caret line="60" column="39" lean-forward="true" selection-start-line="60" selection-start-column="39" selection-end-line="60" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/liner/linked/PalindromeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="55" column="5" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="55" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/liner/array/Array.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3072">
-          <caret line="128" column="8" lean-forward="false" selection-start-line="128" selection-start-column="8" selection-end-line="140" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/liner/array/GenericArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6000">
-          <caret line="250" column="13" lean-forward="true" selection-start-line="250" selection-start-column="13" selection-end-line="250" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/liner/array/Array.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3072">
-          <caret line="128" column="8" lean-forward="false" selection-start-line="128" selection-start-column="8" selection-end-line="140" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/liner/array/GenericArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5856">
-          <caret line="244" column="46" lean-forward="false" selection-start-line="244" selection-start-column="46" selection-end-line="244" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/liner/array/Array.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3072">
-          <caret line="128" column="8" lean-forward="true" selection-start-line="128" selection-start-column="8" selection-end-line="140" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/liner/array/GenericArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5856">
-          <caret line="244" column="46" lean-forward="true" selection-start-line="244" selection-start-column="46" selection-end-line="244" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/liner/linked/Palindrome.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -788,13 +731,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
           <caret line="64" column="11" lean-forward="false" selection-start-line="64" selection-start-column="11" selection-end-line="64" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/JavaEnvironment/jdk1.8.0_172/src.zip!/java/lang/System.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="492" column="30" lean-forward="false" selection-start-line="492" selection-start-column="30" selection-end-line="492" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -882,13 +818,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/JavaEnvironment/jdk1.8.0_172/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="4569" column="23" lean-forward="true" selection-start-line="4569" selection-start-column="23" selection-end-line="4569" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/liner/linked/GenericArrayTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
@@ -900,7 +829,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-307">
           <caret line="43" column="31" lean-forward="true" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -936,7 +864,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="413">
           <caret line="121" column="8" lean-forward="false" selection-start-line="121" selection-start-column="8" selection-end-line="121" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -944,10 +871,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="545">
           <caret line="474" column="11" lean-forward="false" selection-start-line="474" selection-start-column="11" selection-end-line="474" selection-end-column="11" />
-          <folding>
-            <element signature="e#19327#19328#0" expanded="false" />
-            <element signature="e#19410#19411#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -962,17 +885,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
           <caret line="135" column="16" lean-forward="false" selection-start-line="135" selection-start-column="16" selection-end-line="135" selection-end-column="16" />
-          <folding>
-            <element signature="e#2871#2872#0" expanded="false" />
-            <element signature="e#2896#2897#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/liner/array/GenericArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2184">
-          <caret line="16" column="52" lean-forward="false" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -980,24 +892,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
           <caret line="27" column="41" lean-forward="false" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
-          <folding>
-            <element signature="e#438#439#0" expanded="false" />
-            <element signature="e#487#488#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/liner/linked/SinglyLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3317">
-          <caret line="315" column="0" lean-forward="true" selection-start-line="315" selection-start-column="0" selection-end-line="315" selection-end-column="0" />
-          <folding>
-            <element signature="method#isEqual#0;class#SinglyLinkedList#0" expanded="false" />
-            <element signature="method#inverseLinkedList#0;class#SinglyLinkedList#0" expanded="false" />
-            <element signature="method#printNodeList#0;class#SinglyLinkedList#0" expanded="false" />
-            <element signature="method#inverseLinkedListUntil#0;class#SinglyLinkedList#0" expanded="false" />
-            <element signature="method#isPalindrome#0;class#SinglyLinkedList#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1005,7 +899,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
           <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1013,7 +906,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
           <caret line="607" column="13" lean-forward="false" selection-start-line="607" selection-start-column="12" selection-end-line="607" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1021,15 +913,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
           <caret line="193" column="23" lean-forward="false" selection-start-line="193" selection-start-column="20" selection-end-line="193" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/liner/array/Array.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2539">
-          <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1037,14 +920,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
           <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/liner/linked/SNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
           <folding />
         </state>
       </provider>
@@ -1061,15 +936,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
           <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/liner/linked/LRUBasedLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1041">
-          <caret line="135" column="16" lean-forward="false" selection-start-line="135" selection-start-column="16" selection-end-line="135" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1083,16 +949,150 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://D:/JavaEnvironment/jdk1.8.0_172/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="493" column="51" lean-forward="false" selection-start-line="493" selection-start-column="47" selection-end-line="493" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JavaEnvironment/jdk1.8.0_172/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="3212" column="19" lean-forward="true" selection-start-line="3212" selection-start-column="19" selection-end-line="3212" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/liner/array/GenericArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="213" column="7" lean-forward="false" selection-start-line="213" selection-start-column="7" selection-end-line="213" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/liner/array/Array.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="128" column="24" lean-forward="false" selection-start-line="128" selection-start-column="24" selection-end-line="128" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/liner/linked/SinglyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="303" column="45" lean-forward="true" selection-start-line="303" selection-start-column="45" selection-end-line="303" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/liner/stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JavaEnvironment/jdk1.8.0_172/jre/lib/rt.jar!/java/util/LinkedList.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/liner/stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/liner/stack/StackBasedArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5">
+          <caret line="72" column="46" lean-forward="false" selection-start-line="72" selection-start-column="46" selection-end-line="72" selection-end-column="46" />
+          <folding>
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+            <element signature="e#875#876#0" expanded="true" />
+            <element signature="e#906#907#0" expanded="true" />
+            <element signature="e#1011#1012#0" expanded="true" />
+            <element signature="e#1038#1039#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/liner/linked/LRUBasedLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="66" column="21" lean-forward="false" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/liner/linked/SNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JavaEnvironment/jdk1.8.0_172/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-888">
+          <caret line="86" column="22" lean-forward="false" selection-start-line="86" selection-start-column="18" selection-end-line="86" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/liner/stack/StackBasedArrayTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="24" column="9" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="24" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/liner/stack/StackBasedLinkedListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="20" column="42" lean-forward="false" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/liner/stack/StackBasedLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="67" column="24" lean-forward="true" selection-start-line="67" selection-start-column="24" selection-end-line="67" selection-end-column="24" />
+          <folding>
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+            <element signature="e#528#529#0" expanded="true" />
+            <element signature="e#1975#1976#0" expanded="true" />
+            <element signature="e#2009#2010#0" expanded="true" />
+            <element signature="e#2042#2043#0" expanded="true" />
+            <element signature="e#2083#2084#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/liner/linked/LinkedListUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2064">
-          <caret line="145" column="50" lean-forward="false" selection-start-line="145" selection-start-column="50" selection-end-line="145" selection-end-column="50" />
-          <folding>
-            <element signature="method#inverseLinkedList#0;class#LinkedListUtils#0" expanded="false" />
-            <element signature="method#checkCircle#0;class#LinkedListUtils#0" expanded="false" />
-            <element signature="method#deleteNthLastNode#0;class#LinkedListUtils#0" expanded="false" />
-            <element signature="method#printAll#0;class#LinkedListUtils#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="1589">
+          <caret line="148" column="0" lean-forward="true" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
