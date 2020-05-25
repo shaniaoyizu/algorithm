@@ -33,4 +33,11 @@ public class StackBasedLinkedListTest {
             System.out.println("=============================================");
         }
     }
+
+    @Test
+    public void test02(){
+        System.out.println(stack.toString());
+        stack.clear();
+        System.out.println(stack.toString());
+    }
 }

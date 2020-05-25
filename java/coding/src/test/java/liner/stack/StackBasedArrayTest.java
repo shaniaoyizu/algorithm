@@ -43,4 +43,11 @@ public class StackBasedArrayTest {
         System.out.println(stack.pop());
         System.out.println(stack.peek());
     }
+
+    @Test
+    public void test03(){
+        System.out.println(stack.toString());
+        stack.clear();
+        System.out.println(stack.toString());
+    }
 }

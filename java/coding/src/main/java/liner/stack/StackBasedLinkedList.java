@@ -82,6 +82,14 @@ public class StackBasedLinkedList<T> {
         return top.value;
     }
 
+    /**
+     * Clears up the stack
+     */
+    public void clear(){
+        this.size = 0;
+        top = null;
+    }
+
     @Override
     public String toString() {
         if (size == 0) {

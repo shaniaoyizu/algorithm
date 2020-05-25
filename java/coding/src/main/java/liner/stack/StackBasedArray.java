@@ -103,6 +103,13 @@ public class StackBasedArray<T> {
     }
 
     /**
+     * Clears up the stack
+     */
+    public void clear(){
+        this.size = 0;
+    }
+
+    /**
      * @return
      */
     public String toString() {
