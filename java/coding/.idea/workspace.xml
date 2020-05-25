@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c9f7ae6-05aa-4b43-81fe-9d53bd013681" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/liner/stack/SampleBrowserOnStackArray.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/liner/stack/SampleBrowserOnStackLinkedList.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/liner/stack/SampleBrowserOnStackArrayTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/liner/stack/SampleBrowserOnStackLinkedListTest.class" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/liner/stack/SampleBrowserOnStackArray.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/liner/stack/SampleBrowserOnStackLinkedList.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/liner/stack/SampleBrowserOnStackArrayTest.java" />
@@ -496,7 +500,7 @@
       <workItem from="1590124449955" duration="8473000" />
       <workItem from="1590210878392" duration="2439000" />
       <workItem from="1590294844116" duration="12843000" />
-      <workItem from="1590379100009" duration="7460000" />
+      <workItem from="1590379100009" duration="7553000" />
     </task>
     <servers />
   </component>
@@ -533,7 +537,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130652000" />
+    <option name="totallyTimeSpent" value="130745000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
