@@ -1,5 +1,7 @@
 package liner.stack;
 
+import java.util.Deque;
+import java.util.LinkedList;
 import java.util.Stack;
 
 /**
@@ -22,7 +24,7 @@ public class StackUtils {
             return false;
         }
 
-        Stack<Character> stack = new Stack<>();
+        Deque<Character> stack = new LinkedList<>();
         int length = s.length();
         for (int i = 0; i < length; i++) {
             if (s.charAt(i) == '(' || s.charAt(i) == '[' || s.charAt(i) == '{') {
