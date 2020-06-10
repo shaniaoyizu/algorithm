@@ -30,4 +30,13 @@ public class StackUtilsTest {
         s = "([])[[]{}";
         System.out.println(s + "：" + StackUtils.checkValidString(s));
     }
+
+    @Test
+    public void test03(){
+        System.out.println(StackUtils.toHex(16));
+        System.out.println(StackUtils.toHex(19));
+        System.out.println(StackUtils.toHex(250));
+        System.out.println(StackUtils.toHex(256));
+        System.out.println(StackUtils.toHex(290));
+    }
 }
